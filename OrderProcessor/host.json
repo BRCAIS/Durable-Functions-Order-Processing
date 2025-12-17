@@ -14,6 +14,7 @@
   },
   "extensions": {
     "durableTask": {
+      "hubName": "OrderProcessingHub",
       "storageProvider": {
         "type": "AzureStorage",
         "maxQueuePollingInterval": "00:00:01"
